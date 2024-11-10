@@ -1,0 +1,339 @@
+/*Jubilacion*/
+/*Parte uno*/
+.Jubilacion{
+    width: 80%;
+    margin-left:5%
+}
+.Jubilacion button {
+    grid-column: 3/4;
+    grid-row: 3;
+    width: 250px;
+    height: 50px;
+    border-radius: 50%;
+    margin-left: 50%;
+    margin-top: 10%;
+}
+.Jubilacion img{
+    width: 500px;
+    height: 300px;
+}
+
+.Jubilacion >div{
+    grid-row: 2;
+}
+
+.Jubilacion section{
+    grid-column: 1/6;
+    width: 110%;
+    padding-top: 1%;
+}
+
+.imgJubilacion11{
+    grid-column: 1;
+}
+.imgJubilacion12{
+    grid-column: 3; 
+    margin-left: -30%;
+}
+
+/*Parte Dos*/
+
+.imgJubilacion21{
+    grid-column: 1;
+}
+.imgJubilacion22{
+    grid-column: 3;     
+    margin-left: -30%;
+}
+
+/*Parte Tres*/
+
+.imgJubilacion31{
+    grid-column: 1;
+}
+.imgJubilacion32{
+    grid-column: 3; 
+    margin-left: -30%;
+}
+.imgJubilacion33{
+    grid-column: 4; 
+    margin-left: 40%;
+}
+
+/*Parte Cuatro*/
+
+.imgJubilacion41{
+    grid-column: 1;
+}
+
+/*Parte Cinco*/
+
+.imgJubilacion51{
+    grid-column: 1;
+}
+.imgJubilacion52{
+    grid-column: 3; 
+    margin-left: -30%;
+}
+
+/*Parte Seis*/
+
+.imgJubilacion61{
+    grid-column: 1;
+}
+.imgJubilacion62{
+    grid-column: 3; 
+    margin-left: -30%;
+}
+.imgJubilacion63{
+    grid-column: 4; 
+    margin-left: 40%;
+}
+
+/*Parte Siete*/
+
+.imgJubilacion71{
+    grid-column: 1;
+}
+.imgJubilacion72{
+    grid-column: 3; 
+    margin-left: -30%;
+}
+.imgJubilacion73{
+    grid-column: 5; 
+    margin-left: 40%;
+}
+
+/*Parte Ocho*/
+
+.imgJubilacion81{
+    grid-column: 1;
+}
+.imgJubilacion82{
+    grid-column: 3; 
+    margin-left: -30%;
+}
+.imgJubilacion83{
+    grid-column: 4; 
+    margin-left: 40%;
+}
+
+
+/*Adaptacion para tres resoluciones*/
+@media only screen and (max-width: 1361px) {
+    .Jubilacion {
+        margin-left: 1%;
+        width: 100%;
+    }
+    .Jubilacion section{
+        grid-column: 1/6;
+        width: 95%;
+        margin-top: 3%;
+        padding: 0%;
+    }
+
+    
+    .imgJubilacion12{
+        grid-column: 3/5;
+        margin-left: 0%;
+    }
+
+    .imgJubilacion22{
+        grid-column: 3/5;
+        margin-left: 0%;
+    }
+
+    
+    .imgJubilacion32{
+        grid-column: 3/5;
+        margin-left: 0%;
+    }    
+    .imgJubilacion33{
+        grid-row: 2;
+        grid-column: 2/4;
+        margin-top: 60%;
+        margin-left: 0%;
+        padding-bottom: 10%;
+    }
+    
+    .imgJubilacion52{
+        grid-column: 3/5;
+        margin-left: 0%;
+    }
+
+    .imgJubilacion62{
+        grid-column: 3/5;
+        margin-left: 0%;
+    }    
+    .imgJubilacion63{
+        grid-row: 2;
+        grid-column: 2/4;
+        margin-top: 60%;
+        margin-left: 0%;
+    }
+
+    .imgJubilacion72{
+        grid-column: 3/5;
+        margin-left: 0%;
+    }
+    
+    .imgJubilacion82{
+        grid-column: 3/5;
+        margin-left: 20%;
+    }    
+    .imgJubilacion83{
+        grid-row: 2;
+        grid-column: 2/4;
+        margin-top: 60%;
+        margin-left: 0%;
+    }
+
+    .Jubilacion button {
+        grid-column: 2;
+        grid-row: 5;       
+        margin-left: 60%;
+        margin-top: 0%;
+    }
+}
+ 
+@media only screen and (max-width: 1081px) {
+    .Jubilacion{
+        width: 85%;
+    }
+    
+    .Jubilacion section{
+        margin-top: 5%;
+    }
+    .imgJubilacion12{
+        grid-column: 3;
+        margin-left: 35%;
+    }
+
+    .imgJubilacion22{
+        grid-column: 3;
+        margin-left: 35%;
+    }
+
+    
+    .imgJubilacion32{
+        grid-column: 3;
+        margin-left: 40%;
+    }    
+    .imgJubilacion33{
+        grid-row: 2;
+        grid-column: 2/4;
+        margin-top: 75%;
+        margin-left: 0%;
+        padding-bottom: 10%;
+    }
+    
+    .imgJubilacion52{
+        grid-column: 3/5;
+        margin-left: 25%;
+    }
+
+    .imgJubilacion62{
+        grid-column: 3/5;
+        margin-left: 25%;
+    }    
+    .imgJubilacion63{
+        grid-row: 2;
+        grid-column: 2/4;
+        margin-top: 75%;
+        margin-left: 0%;
+        padding-bottom: 20%;
+    }
+
+    .imgJubilacion72{
+        grid-column: 3/5;
+        margin-left: 25%;
+    }
+    
+
+    .imgJubilacion81{
+        margin-top: -40%;
+    }
+    .imgJubilacion82{
+        grid-column: 3/5;
+        margin-top: -20%;
+        margin-left: 25%;
+    }    
+    .imgJubilacion83{
+        grid-row: 2;
+        grid-column: 2/4;
+        margin-top: 55%;
+        margin-left: 0%;
+        padding-bottom: 15%;
+    }
+
+    .Jubilacion button {
+        grid-column: 2;
+        grid-row: 6;       
+        margin-left: 60%;
+        margin-top: -5%;
+    }
+}
+
+@media only screen and (max-width: 769px) { 
+    .Jubilacion{
+        width: 100%;
+    }
+    .Jubilacion>div{
+        grid-column: 1/3;
+        margin-left: 20%;
+    }
+
+    
+    .imgJubilacion12{
+        grid-row: 3/6;
+        margin-top: 105%;
+    }
+
+    .imgJubilacion22{
+        grid-row: 3/6;
+        margin-top: 105%;
+    }
+
+    .imgJubilacion32{
+        grid-row: 3/6;
+        margin-top: 105%;        
+    }
+    .imgJubilacion33{
+        grid-row: 5;
+        margin-top: 215%;
+    }
+
+    .imgJubilacion52{
+        grid-row: 3/6;
+        margin-top: 105%;
+    }
+
+    .imgJubilacion62{
+        grid-row: 3/6;
+        margin-top: 105%;        
+    }
+    .imgJubilacion63{
+        grid-row: 5;
+        margin-top: 215%;
+    }
+
+    .imgJubilacion72{
+        grid-row: 3/6;
+        margin-top: 105%;
+    }
+
+    .imgJubilacion82{
+        grid-row: 3/6;
+        margin-top: 90%;        
+    }
+    .imgJubilacion83{
+        grid-row: 5;
+        margin-top: 215%;
+        padding-bottom: 50%;
+    }
+
+    .Jubilacion button {    
+        margin-top: -20%;
+        margin-left: 40%;
+    }
+}

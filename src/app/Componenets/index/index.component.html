@@ -1,0 +1,32 @@
+<div class="General">
+  @for(lista of arreglo; track lista.id ){
+  <main class={{lista.llamada}}>
+    <section class="{{lista.llamada}}{{lista.id}}" [style]='Numero == "0" ? "background-color:#ffffff":""'>
+      <h1 [hidden]="lista.titulo!=''? false:true">{{lista.titulo}}</h1>
+      <p [hidden]="lista.informacion!=''? false:true">{{lista.informacion}}</p>
+    </section>
+    <div class="img{{lista.llamada}}{{lista.id}}1">
+      <img src={{Imagen1}}{{lista.img1}}{{Imagen2}} [hidden]="lista.img1!=''? false:true">
+      <figure [hidden]="lista.D1!=''?false:true">{{lista.D1}}</figure>
+    </div>
+    <div class="img{{lista.llamada}}{{lista.id}}2">
+      <img src={{Imagen1}}{{lista.img2}}{{Imagen2}} [hidden]="lista.img2!=''? false:true">
+      <figure [hidden]="lista.D2!=''?false:true">{{lista.D2}}</figure>
+    </div>
+    <div class="img{{lista.llamada}}{{lista.id}}3">
+      @if (!lista.img3.includes('https')) {
+        <img src="{{Imagen1}}{{lista.img3}}{{Imagen2}}" [hidden]="lista.img3!=''? false:true">
+      }@else {
+        <iframe width="500" height="400" src="https://www.youtube.com/embed/iO-O64q7d_o" frameborder="0" [hidden]="lista.img3!=''? false:true"></iframe>                
+      }      
+      <figure [hidden]="lista.D3!=''?false:true">{{lista.D3}}</figure>
+    </div>
+    <button (click)="cambio(lista.botonB); Vista()" [hidden]="lista.botonB!=''? false:true">{{lista.botonA}}</button>
+  </main>
+  }
+</div>
+<!-- 
+(click)="cambio(lista.botonB)"
+hidden={{`lista.img1 = "" ? false : true`}}
+hidden=`lista.img1 = "" ? false : true`
+-->

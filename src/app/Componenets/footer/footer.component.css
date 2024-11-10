@@ -1,0 +1,20 @@
+.ICO{
+    margin-left: 40%;
+    padding-top: 1%;
+}
+.ICO figure{
+    width: 10%;
+    margin-left: 0.5%;
+}
+
+.DET{
+    margin-left: 70%;
+    margin-top: -2%;
+    padding-bottom: 0.5%;
+}
+
+footer{
+    background-color: rgb(213, 252, 246);
+    border-radius: 5%;
+    margin-top: 5%;
+}

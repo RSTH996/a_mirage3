@@ -1,0 +1,101 @@
+
+/*página de inicio*/
+.Inicio >section{
+    grid-column: 2/5;
+    padding-left: 5%;
+}
+.Inicio h1{
+    margin-left: 37%;
+}
+
+.Inicio>div {
+    grid-column: 2/4;
+    grid-row: 2;    
+}
+
+.Inicio img {
+    max-width: 1500px;
+    max-height: 600px;
+    width: 150%;
+    height:300%;
+}
+
+.Inicio button {
+    grid-column: 2/4;
+    grid-row: 5;    
+    width: 250px;
+    height: 50px;
+    border-radius: 50%;
+    margin-top: 5%;
+}
+
+/*Adaptacion para tres resoluciones*/
+@media only screen and (max-width: 1361px) {    
+    .Inicio{
+        max-height: 500px;
+        padding-bottom: 13%;
+    }
+    .Inicio section {
+        padding-bottom: 30%;
+        width: 105%;
+    }
+    .Inicio >div img {
+        margin-top: 15%;
+        margin-left: 5%;
+        max-width: 60vmax;  
+        min-width: 1vmax; 
+        max-height: 30vmax;
+        min-height: 1vmin;
+    }
+    .Inicio p{
+        padding-bottom: 15rem;
+    }
+    .Inicio button{
+        margin-top: 18%;
+    }
+}
+
+@media only screen and (max-width: 1081px) {
+    .Inicio section {
+        width: 105%;
+        padding-bottom: 35%;
+    }    
+    .Inicio p{
+        padding-bottom: 5rem;
+    }
+    .Inicio >div img {
+        margin-top: 20%;
+        max-width: 60vmax;  
+        min-width: 1vmax; 
+        max-height: 30vmax;
+        min-height: 1vmin;
+    }    
+    .Inicio button{
+        margin-top: 25%;
+    }
+}
+
+@media only screen and (max-width: 769px) {
+    .Inicio{
+        max-height: 450px;
+    }
+    .Inicio section {
+        width: 105%;
+        padding-bottom: 55%;
+    }
+    .Inicio >div img {
+        max-width: 60vmax;  
+        min-width: 1vmax; 
+        max-height: 30vmax;
+        min-height: 1vmin;
+        margin-top: 45%;
+    }
+    .Inicio h1 {
+        margin-left: 25%;
+    }  
+    .Inicio button{
+        grid-row: 6/7;
+        margin-top: 10%;
+        margin-left: 30%;
+    }
+}

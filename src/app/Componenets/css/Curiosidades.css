@@ -1,0 +1,138 @@
+
+/*Curiosidades*/
+
+.Curiosidades{
+    width: 80%;
+    margin-left: 5%;
+}
+.Curiosidades button {
+    grid-column: 3/4;
+    grid-row: 3;
+    width: 250px;
+    height: 50px;
+    border-radius: 50%;
+    margin-left: 50%;
+    margin-top: 30%;
+}
+.Curiosidades img{
+    width: 500px;
+    height: 500px;
+}
+.Curiosidades > section{
+    grid-column: 1/6;
+}
+.Curiosidades > div{
+    grid-row: 2;
+}
+.imgCuriosidades01{
+    grid-column: 1;  
+    margin-top: 5%;  
+}
+.imgCuriosidades02{
+    grid-column: 3;
+    margin-top: 5%;  
+}
+.imgCuriosidades03{
+    grid-column: 5;
+    margin-top: 5%;  
+}
+
+.imgCuriosidades11{
+    grid-row: 1;
+    grid-column: 3;
+    margin-top: -35%;
+}
+.Curiosidades figure{
+    width: 150%;
+}
+
+/*Adaptacion para tres resoluciones*/
+@media only screen and (max-width: 1361px) {    
+    .imgCuriosidades02{
+        grid-column: 4;
+    }
+    .imgCuriosidades03{
+        grid-column: 1;
+        margin-top: 320%;
+    }
+
+    .imgCuriosidades11{
+        grid-column: 4;
+        margin-top: -220%;
+    }
+}
+
+@media only screen and (max-width: 1081px) {
+    .Curiosidades{
+        width: 100%;
+    }
+    .Curiosidades section{
+        grid-column: 1/5;
+        width: 120%;
+    }
+
+
+    .imgCuriosidades01{
+        margin-left: -20%;
+        margin-top: -20%;
+    }
+    .imgCuriosidades02{
+        grid-column: 3;
+        margin-left: 30%;
+        margin-top: -20%;
+    }
+    .imgCuriosidades03{
+        margin-left: -20%;
+        margin-top: 320%;
+    }
+
+    .imgCuriosidades11{
+        margin-left: -70%;
+        margin-top: -240%;
+    }
+
+    .imgCuriosidades11 figure{
+        width: 110%;
+    }
+}
+
+@media only screen and (max-width: 769px) {
+    .Curiosidades{
+        width: 95%;
+    }
+
+    .Curiosidades >div{
+        grid-column: 1;
+        margin-left: 50%;
+    }
+
+    .Curiosidades >div figure{
+        width: 500%;
+    }
+
+    .imgCuriosidades01{
+        margin-left: 0%;
+        margin-top: -100%;
+    }
+    .imgCuriosidades02{
+        margin-left: 0%;
+        margin-top: 330%;
+    }
+    .imgCuriosidades03{   
+        margin-left: 0%;
+        margin-top: 800%;
+    }
+
+    .imgCuriosidades11{
+        margin-left: 0%;
+        margin-top: 20%;
+    }
+
+    
+.Curiosidades button {
+    grid-column: 2;
+    grid-row: 1;
+    margin-left: 50%;
+    margin-top: 100%;
+}
+}

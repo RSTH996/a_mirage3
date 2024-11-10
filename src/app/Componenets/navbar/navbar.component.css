@@ -1,0 +1,13 @@
+.Titulo{
+    width: 100%;
+    background-color: rgb(213, 252, 246);  
+    border-radius: 5%;  
+}
+.Titulo1{
+    margin-left: 40%;
+    padding: 1%;
+}
+
+.Titulo:hover{
+    background-color: rgb(255, 221, 108);
+}

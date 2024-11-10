@@ -1,0 +1,28 @@
+/*importacion de css para pantallas reducidas*/
+@import url(../css/Inicio.css);
+@import url(../css/Nacimiento.css);
+@import url(../css/Avance.css);
+@import url(../css/Combate.css);
+@import url(../css/Jubilacion.css);
+@import url(../css/Curiosidades.css);
+.General{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1;
+}
+main {
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(6, 20%);
+    grid-template-rows: repeat(6, 20%);
+    grid-auto-columns: minmax(150px, auto);
+    grid-auto-rows: minmax(150px, auto);
+}
+
+h1{
+    font-size: xx-large;
+}
+
+p{
+    font-size: larger;
+}
